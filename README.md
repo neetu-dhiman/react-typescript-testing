@@ -35,3 +35,6 @@ Run `yarn typecheck` to test.
 ### Submitting
 
 Push your code to some git repository that is public. For example, you can use GitHub or Gitlab.
+
+# Submission
+### Task 1 and Task 2 are completed.
