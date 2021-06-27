@@ -4,7 +4,16 @@ export interface SampleState {
   counter: number;
 }
 
-export type SampleAction = unknown;
+export interface IincrementOne {
+  type: 'INCREMENT_ONE'
+}
+
+export interface IincrementByCount {
+  type: 'INCREMENT_BY_COUNT',
+  count: number
+}
+
+export type SampleAction = IincrementOne | IincrementByCount;
 
 const initialState: SampleState = {
   counter: 0,
